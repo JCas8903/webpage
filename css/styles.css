@@ -1,0 +1,243 @@
+/* Styles JCAS8903 */
+
+
+nav{
+    background-color: rgb(83, 3, 3);
+    padding: 0 1rem 2rem 1rem ;
+    text-align: center;
+}
+nav ul{
+  
+    padding: 0.25rem ;
+    margin: 0 0.25rem;   
+    
+}
+nav ul li{
+    list-style-type: none;
+    border: 0.1rem solid #020011f3;
+    background-color: rgb(14, 14, 192);
+}
+
+nav ul li a{
+    color:  rgb(245, 244, 242);
+    font-variant: small-caps;
+    font-size: 1.25rem;
+    background-color: #656965;
+    display: block;   
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9c9898;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #d20707;
+}
+
+main {
+    padding: 20px;
+    overflow: hidden;
+}
+
+section {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+}
+
+h3 {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+ul.external-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul.external-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul.external-links li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul.external-links li a:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+button[type="reset"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"]:hover {
+    background-color: #555;
+}
+
+.main-section-figure img{
+    width : 40%;
+    height : 80%;
+    padding : .5rem;
+    border-radius : 1rem;
+
+}
+
+#absolute-path-image{
+    background-color: rgb(17, 16, 16);
+    border : .25rem solid #400202;
+    color : hsl(240, 22%, 95%);
+}
+
+#relative-path-image{
+    background-color: rgb(17, 16, 16);
+    border : .25rem solid #400202;
+    color : hsl(240, 22%, 95%);
+}
+
+.main-section-figure{
+
+    border-radius : 1rem;
+    text-align: center;
+}
+
+
+header{
+    background-image: linear-gradient(hwb(0 4% 51%) 10%, rgb(255, 255, 255) 10%, black 80%) !important;
+
+    margin : 1rem 1.5rem .5rem;
+    margin : 1rem;
+}
+
+.cuadro {
+    border: 2px solid black;
+    padding: 80px;
+    width: 500px;
+  }
+
+body {
+    background-image: url('images\MJ1.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        width: 100%;
+    }
+}
+

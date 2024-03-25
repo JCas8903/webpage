@@ -1,0 +1,132 @@
+<!--contact 2 JORDAN II -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html,css,web,development,elements,attributes">
+    <meta name="description" content="This website is about the basics of HTML and CSS.">
+    <meta name="language" content="english">
+    <meta name="author" content="Jorge Castro Conestoga College">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Contact Pag Michael Jordan 23</title>    
+</head>
+<body >
+    <header>
+        <h1 id="header-heading" class="headings" style="color:rgb(99, 6, 6);">
+            <center><span id="span-h">Michael Jordan</span></center>
+        </h1>     
+    </header>
+    <nav>
+        <ul>
+            <li id="home-link"><a href="index.html">Home</a></li>
+            <li id="contact-link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <form name="contact" id="contact" method="post" action="contact.php" autocomplete="off">
+                <div>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label for="firstname">First Name:</label>
+                        <input type="text" id="firstname" name="firstname" autofocus placeholder="" required>
+                    </div>
+                    <div>
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                    <fieldset>
+                        <legend>What is your gender?</legend>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="other">Other</label>
+                        <input type="radio" name="gender" id="other" value="other" >                  
+                    </fieldset>
+                    <div>            
+                    <fieldset>
+                        <legend>Do you play any sport?</legend>
+                        <label for="basketball">Basketball</label>
+                        <input type="checkbox" name="game" id="basketball" value="basketball" required>
+                        <label for="Football">Football</label>
+                        <input type="checkbox" name="game" id="football" value="football">
+                        <label for="hokey">Hokey</label>
+                        <input type="checkbox" name="game" id="Hokey" value="hokey">
+                    </fieldset>           
+                    </div>
+                    <div>
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="website">Website</label>
+                        <input type="url" name="url" id="website">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone">
+                        <label for="work">How many hours do you play sports?</label>
+                        <input type="number" name="work" id="work"  min="1" max="4" step="0.5">
+                        <label for="dob">Date of birth</label>
+                        <input type="date" id="dob" name="dob" name="dob" min="1980-01-01">
+                    </fieldset> 
+                    </div>
+
+                    <div>
+                    <fieldset>
+                        <button type="submit">
+                            Submit Form
+                        </button>
+                    </fieldset>
+                    </div>
+                    <div>
+                    <fieldset>
+                        <button type="reset">
+                            Reset Form
+                        </button>
+                    </fieldset>
+                    </div>
+        </section>
+        
+        <section id="section1">
+            <fieldset>
+                <h3>Direct Links other sports</h3><center>
+                    <a href="https://www.hockeycanada.ca/en-ca" title="Link to hockey in canada" target="_blank"><img src="images/hockey.png" width="100" height="100"></a>
+                    <a href="https://www.sportingnews.com/ca/nba?gr=www" title="Link to NBA" target="_blank"><img src="images/nba.jpg" width="100" height="100"></a>
+                    <a href="https://www.fifa.com/fifaplus/ese" title="Link to FIFA" target="_blank"><img src="images/fifa.png" width="100" height="100"></a>
+                    <a href="https://espnpressroom.com/us/" title="Link to ESPN" target="_blank"><img src="images/espn.png" width="100" height="100"></a>            
+            </fieldset>
+
+        </section>
+       
+        <section>
+            <div class="cuadro">
+                <center><h2>Pictures</h2></center>
+                <figure class="main-section-figure" id="absolute-path-image">
+                    <img src="images\nba.jpg" alt="jordan t-shirt">
+                    <figcaption>NBA</figcaption>
+                </figure>
+                <figure class="main-section-figure" id="absolute-path-image">
+                    <img src="images\team.png" alt="jordan t-shirt">
+                    <figcaption>Team 1997 Champions</figcaption>
+                </figure>
+                <figure class="main-section-figure" id="relative-path-image">
+                    <img src="images\chicago.jpg" alt="jordan pitching">
+                    <figcaption>Chicago Bulls</figcaption>
+                </figure></div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&#169; Jorge Castro JCST8903 Conestoga College</p>
+
+    </footer>
+    
+</body>
+</html>
